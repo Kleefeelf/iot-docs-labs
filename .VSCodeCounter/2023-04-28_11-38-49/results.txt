@@ -1,0 +1,88 @@
+Date : 2023-04-28 11:38:49
+Directory : h:\Programming\Docs\nest\src
+Total : 47 files,  1593 codes, 10 comments, 238 blanks, all 1841 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| TypeScript |         46 |      1,330 |          7 |        237 |      1,574 |
+| JavaScript |          1 |        263 |          3 |          1 |        267 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                 | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                    |         47 |      1,593 |         10 |        238 |      1,841 |
+| . (Files)                                                                            |          2 |         31 |          0 |          4 |         35 |
+| admin                                                                                |          5 |         91 |          1 |         16 |        108 |
+| auth                                                                                 |          5 |         48 |          0 |         13 |         61 |
+| auth (Files)                                                                         |          3 |         38 |          0 |          9 |         47 |
+| auth\dto                                                                             |          2 |         10 |          0 |          4 |         14 |
+| constants                                                                            |          1 |          6 |          0 |          1 |          7 |
+| csv                                                                                  |          2 |        415 |          6 |         30 |        451 |
+| developer                                                                            |          5 |        209 |          3 |         29 |        241 |
+| dto                                                                                  |          7 |         44 |          0 |         13 |         57 |
+| prisma                                                                               |          2 |         22 |          0 |          4 |         26 |
+| store                                                                                |         13 |        523 |          0 |         88 |        611 |
+| store (Files)                                                                        |          1 |         40 |          0 |          4 |         44 |
+| store\storeAdmin                                                                     |          4 |        157 |          0 |         28 |        185 |
+| store\storeDeveloper                                                                 |          4 |        163 |          0 |         28 |        191 |
+| store\storeUser                                                                      |          4 |        163 |          0 |         28 |        191 |
+| user                                                                                 |          5 |        204 |          0 |         40 |        244 |
++--------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                             | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| h:\Programming\Docs\nest\src\admin\admin.PrismaRepository.ts                         | TypeScript |         32 |          0 |          4 |         36 |
+| h:\Programming\Docs\nest\src\admin\admin.controller.ts                               | TypeScript |         19 |          1 |          4 |         24 |
+| h:\Programming\Docs\nest\src\admin\admin.module.ts                                   | TypeScript |         16 |          0 |          2 |         18 |
+| h:\Programming\Docs\nest\src\admin\admin.repository.ts                               | TypeScript |          6 |          0 |          2 |          8 |
+| h:\Programming\Docs\nest\src\admin\admin.service.ts                                  | TypeScript |         18 |          0 |          4 |         22 |
+| h:\Programming\Docs\nest\src\app.module.ts                                           | TypeScript |         18 |          0 |          2 |         20 |
+| h:\Programming\Docs\nest\src\auth\auth.controller.ts                                 | TypeScript |         15 |          0 |          4 |         19 |
+| h:\Programming\Docs\nest\src\auth\auth.module.ts                                     | TypeScript |          8 |          0 |          2 |         10 |
+| h:\Programming\Docs\nest\src\auth\auth.service.ts                                    | TypeScript |         15 |          0 |          3 |         18 |
+| h:\Programming\Docs\nest\src\auth\dto\auth.dto.ts                                    | TypeScript |          9 |          0 |          3 |         12 |
+| h:\Programming\Docs\nest\src\auth\dto\index.ts                                       | TypeScript |          1 |          0 |          1 |          2 |
+| h:\Programming\Docs\nest\src\constants\constants.ts                                  | TypeScript |          6 |          0 |          1 |          7 |
+| h:\Programming\Docs\nest\src\csv\generate-csv.js                                     | JavaScript |        263 |          3 |          1 |        267 |
+| h:\Programming\Docs\nest\src\csv\generate-csv.ts                                     | TypeScript |        152 |          3 |         29 |        184 |
+| h:\Programming\Docs\nest\src\developer\developer.PrismaRepository.ts                 | TypeScript |        114 |          3 |          9 |        126 |
+| h:\Programming\Docs\nest\src\developer\developer.controller.ts                       | TypeScript |         39 |          0 |          8 |         47 |
+| h:\Programming\Docs\nest\src\developer\developer.module.ts                           | TypeScript |         16 |          0 |          2 |         18 |
+| h:\Programming\Docs\nest\src\developer\developer.repository.ts                       | TypeScript |         10 |          0 |          2 |         12 |
+| h:\Programming\Docs\nest\src\developer\developer.service.ts                          | TypeScript |         30 |          0 |          8 |         38 |
+| h:\Programming\Docs\nest\src\dto\admin.dto.ts                                        | TypeScript |          6 |          0 |          1 |          7 |
+| h:\Programming\Docs\nest\src\dto\app.dto.ts                                          | TypeScript |         12 |          0 |          2 |         14 |
+| h:\Programming\Docs\nest\src\dto\developer.dto.ts                                    | TypeScript |          7 |          0 |          3 |         10 |
+| h:\Programming\Docs\nest\src\dto\index.ts                                            | TypeScript |          1 |          0 |          1 |          2 |
+| h:\Programming\Docs\nest\src\dto\review.dto.ts                                       | TypeScript |          7 |          0 |          2 |          9 |
+| h:\Programming\Docs\nest\src\dto\store.dto.ts                                        | TypeScript |          1 |          0 |          1 |          2 |
+| h:\Programming\Docs\nest\src\dto\user.dto.ts                                         | TypeScript |         10 |          0 |          3 |         13 |
+| h:\Programming\Docs\nest\src\main.ts                                                 | TypeScript |         13 |          0 |          2 |         15 |
+| h:\Programming\Docs\nest\src\prisma\prisma.module.ts                                 | TypeScript |          8 |          0 |          2 |         10 |
+| h:\Programming\Docs\nest\src\prisma\prisma.service.ts                                | TypeScript |         14 |          0 |          2 |         16 |
+| h:\Programming\Docs\nest\src\store\store.module.ts                                   | TypeScript |         40 |          0 |          4 |         44 |
+| h:\Programming\Docs\nest\src\store\storeAdmin\store.PrismaAdminRepository.ts         | TypeScript |         78 |          0 |         10 |         88 |
+| h:\Programming\Docs\nest\src\store\storeAdmin\storeAdmin.controller.ts               | TypeScript |         39 |          0 |          8 |         47 |
+| h:\Programming\Docs\nest\src\store\storeAdmin\storeAdmin.repository.ts               | TypeScript |         10 |          0 |          2 |         12 |
+| h:\Programming\Docs\nest\src\store\storeAdmin\storeAdmin.service.ts                  | TypeScript |         30 |          0 |          8 |         38 |
+| h:\Programming\Docs\nest\src\store\storeDeveloper\store.PrismaDeveloperRepository.ts | TypeScript |         81 |          0 |         10 |         91 |
+| h:\Programming\Docs\nest\src\store\storeDeveloper\storeDeveloper.controller.ts       | TypeScript |         42 |          0 |          8 |         50 |
+| h:\Programming\Docs\nest\src\store\storeDeveloper\storeDeveloper.repository.ts       | TypeScript |         10 |          0 |          2 |         12 |
+| h:\Programming\Docs\nest\src\store\storeDeveloper\storeDeveloper.service.ts          | TypeScript |         30 |          0 |          8 |         38 |
+| h:\Programming\Docs\nest\src\store\storeUser\store.PrismaUserRepository.ts           | TypeScript |         84 |          0 |         10 |         94 |
+| h:\Programming\Docs\nest\src\store\storeUser\storeUser.controller.ts                 | TypeScript |         39 |          0 |          8 |         47 |
+| h:\Programming\Docs\nest\src\store\storeUser\storeUser.repository.ts                 | TypeScript |         10 |          0 |          2 |         12 |
+| h:\Programming\Docs\nest\src\store\storeUser\storeUser.service.ts                    | TypeScript |         30 |          0 |          8 |         38 |
+| h:\Programming\Docs\nest\src\user\user.PrismaRepository.ts                           | TypeScript |        108 |          0 |         17 |        125 |
+| h:\Programming\Docs\nest\src\user\user.controller.ts                                 | TypeScript |         40 |          0 |          9 |         49 |
+| h:\Programming\Docs\nest\src\user\user.module.ts                                     | TypeScript |         16 |          0 |          3 |         19 |
+| h:\Programming\Docs\nest\src\user\user.repository.ts                                 | TypeScript |         10 |          0 |          2 |         12 |
+| h:\Programming\Docs\nest\src\user\user.service.ts                                    | TypeScript |         30 |          0 |          9 |         39 |
+| Total                                                                                |            |      1,593 |         10 |        238 |      1,841 |
++--------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
